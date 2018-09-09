@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
     season_name = season_string.to_s.capitalize
     puts season_name + ':'
       data_item.each do |holiday, data|
-        holiday_string = new_holiday_string.to_s.capitalize
+        holiday_string = holiday.to_s.capitalize
         if holiday_string.include? "_"
           holiday_string = holiday_string.sub! '_', ' '
         end
