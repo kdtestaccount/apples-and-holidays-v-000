@@ -60,8 +60,7 @@ def all_winter_holiday_supplies(holiday_hash)
         new_data_array << specific_item
       end
     end
-         new_data_array
-
+    new_data_array
   end
 end
 
