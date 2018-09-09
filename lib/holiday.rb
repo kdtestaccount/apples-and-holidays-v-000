@@ -60,6 +60,7 @@ def all_winter_holiday_supplies(holiday_hash)
       season.each do |attribute, data|
         data.each do |item|
          new_data_array << item
+       end 
       end
     end   
   end
