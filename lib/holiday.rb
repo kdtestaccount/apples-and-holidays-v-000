@@ -59,7 +59,7 @@ def all_winter_holiday_supplies(holiday_hash)
     if season == :winter
       season.each do |attribute, data|
         data.each do |item|
-         new_data_array << data
+         new_data_array << item
       end
     end   
   end
