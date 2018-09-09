@@ -60,9 +60,10 @@ def all_winter_holiday_supplies(holiday_hash)
       season.each do |attribute, data|
          supplies_array << data
       end
-    supplies_array
+    
     end   
   end
+  supplies_array
 end
 
 def all_supplies_in_holidays(holiday_hash)
