@@ -62,10 +62,10 @@ def all_winter_holiday_supplies(holiday_hash)
          new_data_array << item
        end 
       end
+      new_data_array
     end 
-    new_data_array
+    
   end
-  
 end
 
 def all_supplies_in_holidays(holiday_hash)
