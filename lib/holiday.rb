@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
       data_item.each do |holiday, data|
         holiday_string = new_holiday_string.to_s.capitalize
         if holiday_string.include? "_"
-          new_holiday_string = holiday.sub! '_', ' '
+          holiday_string = holiday_string.sub! '_', ' '
         end
         puts '  ' + holiday_string + ': ' + data.join(', ')
     end   
