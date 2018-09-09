@@ -79,7 +79,6 @@ def all_supplies_in_holidays(holiday_hash)
     puts season_name + ':'
       data_item.each do |holiday, data|
         new_holiday_string = holiday.sub! '_', ' '
-
         holiday_string = new_holiday_string.to_s.capitalize
         puts '  ' + holiday_string + ': ' + data.join(', ')
     end   
