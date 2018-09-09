@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
           holiday_string = holiday_string.sub! '_', ' '
         end
         holiday_string = holiday_string.capitalize
-        puts '  ' + holiday_string.capitalize + ': ' + data.join(', ')
+        puts '  ' + holiday_string + ': ' + data.join(', ')
     end   
   end
 end
